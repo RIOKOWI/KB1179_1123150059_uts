@@ -75,9 +75,29 @@ class Splash1 extends StatelessWidget {
                         ),
                       ),
                       SizedBox(width: 10,),
-                      
                     ],
                   ),
+                  SizedBox(height: 20,),
+                  Container(
+                    child: SizedBox(
+                      height: 40,
+                      width: double.infinity,
+                      child: ElevatedButton(
+                        onPressed: (){
+                            
+                        }, 
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.red,
+                        ),
+                        child: Text('Continue',
+                        style: TextStyle(
+                          color: Colors.white
+                        ),),
+                        
+                      ),
+                    ),
+                  ),
+                  Spacer(),
                 ],
               ),
             ),
