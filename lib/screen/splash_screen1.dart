@@ -11,6 +11,7 @@ class Splash1 extends StatelessWidget {
             ),
             body: Center(
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   SizedBox(height: 50,),
                   Container(
@@ -24,6 +25,12 @@ class Splash1 extends StatelessWidget {
                         image: AssetImage('assets/image/images(1)'),
                         fit: BoxFit.cover
                       ),
+                    ),
+                  ),
+                  Text('Selamat Datang',
+                  style: TextStyle(
+                      fontSize: 35,
+                      fontWeight: FontWeight.bold
                     ),
                   ),
                 ],
