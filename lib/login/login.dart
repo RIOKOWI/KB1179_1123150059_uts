@@ -135,11 +135,11 @@ class Login extends StatelessWidget {
                         onPressed: (){
                         }, 
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.white,
+                          backgroundColor: Colors.black,
                         ),
                         child: Text('Login',
                         style: TextStyle(
-                          color: Colors.red
+                          color: Colors.white
                         ),
                         ),
                       ),
@@ -183,6 +183,21 @@ class Login extends StatelessWidget {
                       ),
                     ),
                   ),
+                  SizedBox(height: 20,),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text("Don't have an account yet ? ", 
+                      style: TextStyle(
+                        color: Colors.white
+                      ),
+                      ),
+                      Text('Register here', 
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),)
+                    ],
+                  )
                 ],
               ),
             ),
