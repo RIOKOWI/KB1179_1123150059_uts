@@ -22,15 +22,26 @@ class Splash1 extends StatelessWidget {
                       shape: BoxShape.circle,
                       color: Colors.white,
                       image: DecorationImage(
-                        image: AssetImage('assets/image/images(1)'),
-                        fit: BoxFit.cover
-                      ),
+                        image: AssetImage(
+                          "assets/image/images_(1).jpeg"
+                          ),
+                          fit: BoxFit.cover
+                        )
                     ),
                   ),
                   Text('Selamat Datang',
                   style: TextStyle(
                       fontSize: 35,
                       fontWeight: FontWeight.bold
+                    ),
+                  ),
+                  SizedBox(height: 10,),
+                  Text('Red Fan Art',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.normal,
+                      color: Colors.red
                     ),
                   ),
                 ],
