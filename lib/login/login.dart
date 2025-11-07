@@ -82,7 +82,7 @@ class Login extends StatelessWidget {
                       labelStyle: TextStyle(
                         color: Colors.white,
                       ),
-                      hintText: 'Masukan Password Anda',
+                      hintText: 'Enter your Password',
                       hintStyle: TextStyle(
                         color: Colors.white
                       ),
@@ -110,6 +110,18 @@ class Login extends StatelessWidget {
                         borderSide: BorderSide(
                           color: Colors.white,
                           width: 2
+                        ),
+                      ),
+                    ),
+                  ),
+                  SizedBox(height: 10,),
+                  Align(
+                    alignment: Alignment.centerRight,
+                    child: TextButton(
+                        onPressed: () {}, 
+                        child: Text('Lupa Password', 
+                        style: TextStyle(
+                          color: Colors.white
                         ),
                       ),
                     ),
