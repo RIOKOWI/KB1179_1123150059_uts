@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kb1179_1123150059_uts/login/login.dart';
 
 class Splash3 extends StatelessWidget {
   const Splash3({super.key});
@@ -6,14 +7,11 @@ class Splash3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-            appBar: AppBar(
-              actions: const [],
-            ),
             body: Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  SizedBox(height: 50,),
+                  SizedBox(height: 150,),
                   Container(
                     margin: EdgeInsets.only(bottom: 25),
                     width: 250,
@@ -84,15 +82,15 @@ class Splash3 extends StatelessWidget {
                       width: double.infinity,
                       child: ElevatedButton(
                         onPressed: (){
-                            // Navigator.push(
-                            //   context, 
-                            //   MaterialPageRoute(builder: (context) => const Splash2()),
-                            // );
+                            Navigator.push(
+                              context, 
+                              MaterialPageRoute(builder: (context) => const Login()),
+                            );
                         }, 
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.red,
                         ),
-                        child: Text('Continue',
+                        child: Text('Start',
                         style: TextStyle(
                           color: Colors.white
                         ),),

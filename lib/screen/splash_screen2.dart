@@ -7,14 +7,11 @@ class Splash2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-            appBar: AppBar(
-              actions: const [],
-            ),
             body: Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  SizedBox(height: 50,),
+                  SizedBox(height: 150,),
                   Container(
                     margin: EdgeInsets.only(bottom: 25),
                     width: 250,
