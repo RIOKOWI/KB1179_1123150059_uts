@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kb1179_1123150059_uts/screen/splash_screen3.dart';
 
-class Splash2 extends StatelessWidget {
-  const Splash2({super.key});
+class Splash3 extends StatelessWidget {
+  const Splash3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,13 +23,13 @@ class Splash2 extends StatelessWidget {
                       color: Colors.white,
                       image: DecorationImage(
                         image: AssetImage(
-                          "assets/image/images_(2).jpeg"
+                          "assets/image/images_(3).jpeg"
                           ),
                           fit: BoxFit.cover
                         )
                     ),
                   ),
-                  Text('Welcome',
+                  Text("Let's Get Started",
                   style: TextStyle(
                       fontSize: 35,
                       fontWeight: FontWeight.bold
@@ -63,7 +62,7 @@ class Splash2 extends StatelessWidget {
                         height: 10,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.red
+                          color: Colors.grey
                         ),
                       ),
                       SizedBox(width: 10,),
@@ -72,7 +71,7 @@ class Splash2 extends StatelessWidget {
                         height: 10,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.grey
+                          color: Colors.red
                         ),
                       ),
                       SizedBox(width: 10,),
@@ -85,10 +84,10 @@ class Splash2 extends StatelessWidget {
                       width: double.infinity,
                       child: ElevatedButton(
                         onPressed: (){
-                            Navigator.push(
-                              context, 
-                              MaterialPageRoute(builder: (context) => const Splash3()),
-                            );
+                            // Navigator.push(
+                            //   context, 
+                            //   MaterialPageRoute(builder: (context) => const Splash2()),
+                            // );
                         }, 
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.red,
