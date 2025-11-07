@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kb1179_1123150059_uts/screen/splash_screen2.dart';
 
-class Splash1 extends StatelessWidget {
-  const Splash1({super.key});
+class Splash2 extends StatelessWidget {
+  const Splash2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +23,7 @@ class Splash1 extends StatelessWidget {
                       color: Colors.white,
                       image: DecorationImage(
                         image: AssetImage(
-                          "assets/image/images_(1).jpeg"
+                          "assets/image/images_(2).jpeg"
                           ),
                           fit: BoxFit.cover
                         )
@@ -37,7 +36,7 @@ class Splash1 extends StatelessWidget {
                     ),
                   ),
                   SizedBox(height: 10,),
-                  Text('Red Fan Art',
+                  Text('This Application to Finding Red Fan Art',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 15,
@@ -54,7 +53,7 @@ class Splash1 extends StatelessWidget {
                         height: 10,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.red
+                          color: Colors.grey
                         ),
                       ),
                       SizedBox(width: 10,),
@@ -63,7 +62,7 @@ class Splash1 extends StatelessWidget {
                         height: 10,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
-                          color: Colors.grey
+                          color: Colors.red
                         ),
                       ),
                       SizedBox(width: 10,),
