@@ -57,6 +57,24 @@ class Splash1 extends StatelessWidget {
                         ),
                       ),
                       SizedBox(width: 10,),
+                      Container(
+                        width: 10,
+                        height: 10,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Colors.grey
+                        ),
+                      ),
+                      SizedBox(width: 10,),
+                      Container(
+                        width: 10,
+                        height: 10,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: Colors.grey
+                        ),
+                      ),
+                      SizedBox(width: 10,),
                       
                     ],
                   ),
