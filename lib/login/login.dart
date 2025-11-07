@@ -145,6 +145,22 @@ class Login extends StatelessWidget {
                       ),
                     ),
                   ),
+                  SizedBox(height: 15,),
+                  Row(
+                    children: [
+                      Expanded(child: Divider(color: Colors.white,)),
+                      Padding(
+                        padding: 
+                        EdgeInsets.symmetric(horizontal: 10),
+                        child: Text('Or',
+                        style: TextStyle(
+                          color: Colors.white
+                          ),
+                        ),
+                      ),
+                      Expanded(child: Divider(color: Colors.white,)),
+                    ],
+                  ),
                 ],
               ),
             ),
