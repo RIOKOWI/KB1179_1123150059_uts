@@ -9,12 +9,27 @@ class Login extends StatelessWidget {
             body: Center(
               child: Column(
                 children: [
-                  SizedBox(height: 50,),
+                  SizedBox(height: 80,),
                     Icon(
-                      Icons.lock_outline,
+                      Icons.key,
                       size: 80,
                       color: Colors.red,
                     ),
+
+                    SizedBox(height: 20,),
+                  Text("Welcome", 
+                    style: TextStyle(
+                      fontSize: 30,
+                      fontWeight: FontWeight.bold
+                    ),
+                  ),
+                  SizedBox(height: 5,),
+                  Text("Please Login to Enter the Application", 
+                    style: TextStyle(
+                      fontSize: 15,
+                      color: Colors.red
+                    ),
+                  ),
                 ],
               ),
             ),
